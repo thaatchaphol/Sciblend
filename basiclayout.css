@@ -1,0 +1,1610 @@
+
+
+
+
+/* 
+
+ednote:the order of tag in body tag and nested tag(tag in another tag) have  
+        priority over property float:left in css file
+
+        ednote:IMPORTTANT All four of these html,body,.content,.sidebar must be set property height=100% 
+,otherwise .content and .sidebar cannot extend to the end of html page
+
+*/
+
+
+*{
+    
+ margin:0;
+    padding:0;
+    
+        /*
+    ednote:if we do not set padding:0 margin:0 for html tag and body tag there will be space between them 
+    */
+    
+}
+
+html,body{
+ height:100%;
+    background-color:#000; 
+/*        background-color:#fff; */
+}
+
+
+
+
+
+/* ####################### The following is header ################################################# */
+
+
+
+
+
+
+header.headerhome{     
+
+    
+    
+    
+
+    
+    
+    
+
+    
+             background-color:#9ff; /* ednote:used to be header home color */
+    
+
+ 
+
+    
+/*    background-image:url(images/logo.gif); */ /* ed work*/
+    
+    background-repeat:no-repeat; /* ed work*/
+    text-shadow:4px 4px 8px blue; /* ed work*/
+    
+    float:left;
+    width:100%; 
+    height:20%;
+   
+    /* font-size: 20px; */
+    font-size:150%;
+ 	/* font-weight: 700; */
+    font-weight:bolder;
+    
+    color:#fff;
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+/*
+        ednote:header class headerhome has property width=100% help force nav class menubar and section class sidebar go to 
+        the bottom(another row) automaticly
+        
+        */
+    
+}
+
+/* ----------------------------------- */
+
+
+
+
+header.headerabout{     
+    
+/*    color:#000; */
+        color:#fff;
+/*    background-color:#ff0; */
+    
+/*        background-color:#fcc; */ /* ednote:used to be header about color */
+     background-color:#9ff; /* ednote:used to be header home color */
+    
+/*        text-shadow:4px 4px 8px red; */ /* ed work*/
+            text-shadow:4px 4px 8px blue;
+    
+    
+    float:left;
+    width:100%; 
+    height:20%;
+   
+    /* font-size: 20px; */
+    font-size:150%;
+ 	/* font-weight: 700; */
+    font-weight:bolder;
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+}
+
+/* ----------------------------------- */
+
+
+
+    header.headermedicine{ 
+    
+/*    color:#000; */
+        color:#fff;
+    
+/*    background-color:#ff0; */
+    
+        background-color:#fc6; /* ednote:used to be header medicine color */
+    
+       /*     background-color:#fc3; */
+        /*    background-color:#fc0; */
+    
+  /*    background-color:#f63; */
+  /*    background-color:#f60; */
+    
+            text-shadow:4px 4px 8px #f60; /* ed work*/
+  
+    float:left;
+    width:100%; 
+    height:20%;
+   
+    /* font-size: 20px; */
+    font-size:150%;
+ 	/* font-weight: 700; */
+    font-weight:bolder;
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+}
+
+
+/* ----------------------------------- */
+
+
+
+
+  header.headerengineering{  
+
+        color:#fff;
+  
+
+    
+                         background-color:#6f6; /* ednote:used to be header engineering color */
+
+    
+             text-shadow:4px 4px 8px green; /* ed work*/   
+    
+    float:left;
+    width:100%; 
+    height:20%;
+   
+    /* font-size: 20px; */
+    font-size:150%;
+ 	/* font-weight: 700; */
+    font-weight:bolder;
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+}
+
+/* ----------------------------------- */
+
+
+
+header.headercomputer{     
+    
+/*    color:#000; */
+        color:#fff;
+    
+/*    background-color:#ff0; */
+    
+    
+    
+      /*  background-color:#cfc; */
+  /*  background-color:#cf9; */
+    
+          background-color:#cf6; /* ednote:used to be header computer color */
+    
+   /*       background-color:#cf3; */
+    /*      background-color:#cf0; */
+    
+    /*        background-color:#9f6; */
+/*                background-color:#9f3; */
+/*                 background-color:#9f0; */
+    
+/*                         background-color:#6f6; */ 
+/*             background-color:#6f3; */
+/*         background-color:#6f0; */
+    
+   /*       background-color:#3f6; */
+  /*    background-color:#3f3; */
+  /*    background-color:#3f0; */
+
+    
+ /*     background-color:#0f6; */
+/*                        background-color:#0f3; */
+  /*    background-color:#0f0; */
+    
+             text-shadow:4px 4px 8px green; /* ed work*/   
+    
+    
+    
+    float:left;
+    width:100%; 
+    height:20%;
+   
+    /* font-size: 20px; */
+    font-size:150%;
+ 	/* font-weight: 700; */
+    font-weight:bolder;
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+}
+
+
+/* ----------------------------------- */
+
+
+
+    header.headerfood{ 
+    
+    
+/*    color:#000; */
+        color:#fff;
+    
+/*    background-color:#ff0; */ 
+    
+    background-color:#fcf; /* ednote:used to be header food color */
+    
+
+    
+                text-shadow:4px 4px 8px red; /* ed work*/   
+    
+    
+    float:left;
+    width:100%; 
+    height:20%;
+   
+    /* font-size: 20px; */
+    font-size:150%;
+ 	/* font-weight: 700; */
+    font-weight:bolder;
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+}
+
+
+
+/* ############################The following is menubar ############################################ */
+
+
+
+
+nav.menubar{    
+    
+
+    
+    
+          /*       background-color:#ff9; */
+    
+            background-color:#ff6;  
+    
+    
+
+    
+
+    
+
+    
+    /* -----below for violet------------*/
+    
+/*     background-color:#f0f; */
+      /*   background-color:#f0c; */
+    /*     background-color:#f09; */
+    
+/*         background-color:#c9f; */ /* ednote:used to be */ 
+  /*       background-color:#c9c; */
+    
+    /*     background-color:#c6f; */  /* ednote:used to be */ 
+    /*     background-color:#c6c; */
+    
+      /*   background-color:#c3f; */
+    /*     background-color:#c3c; */
+    
+      /*   background-color:#c0f; */
+    /*     background-color:#c0c; */
+    /*     background-color:#c09; */
+    
+/*         background-color:#96f; */
+  /*       background-color:#96c; */
+    
+/*         background-color:#93f; */
+  /*       background-color:#93c; */
+    
+    /*     background-color:#90f; */
+    /*     background-color:#90c; */
+    /*     background-color:#909; */
+    
+    /*     background-color:#60f; */
+    /*     background-color:#60c; */
+    
+    /*     background-color:#30c; */
+    /*     background-color:#309; */
+    
+        /* ----below for yellow and orange-------------*/
+    
+      /*       background-color:#ff9; */
+      /*       background-color:#ff6; */ /* ednote:used to be */ 
+      /*       background-color:#ff3; */   
+    /* background-color:#ff0; */
+    
+     /*    background-color:#fc6; */ /* ednote:used to be */
+      /*   background-color:#fc3; */
+     /*    background-color:#fc0; */
+    
+      /*   background-color:#f96; */
+      /*   background-color:#f93; */
+      /*       background-color:#f90; */
+    
+       /*      background-color:#f63; */
+       /*      background-color:#f60; */
+    
+       /*      background-color:#f33; */
+       /*      background-color:#f30; */
+    
+    
+    
+    
+    
+    float:left;
+    width:100%; 
+    
+    
+/*     font-size: 20px; */
+         font-size:120%;
+/* 	font-weight: 700; */
+     	font-weight:bolder;
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;   
+    
+    
+    /* display:inline;*/ /* do not work ,you must set at li */
+    
+    /*
+        ednote:nav class menubar has property width=100% help force section class sidebar go to 
+        the bottom(another row) automaticly
+        
+        */
+    
+}
+
+
+
+
+
+
+nav.menubar ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+
+
+
+nav.menubar ul li{    
+    
+       display:inline; 
+    
+    /*   background:#fff; */  /* ed work*/
+    
+
+    /*  padding-left:10%; */  /* ed work*/
+    /* padding-left:20%;  */
+    
+/*        padding-left:55px; */ /* also work */
+    
+/*     margin-left:5%; */
+     margin-left:10%;      /* ed also work*/
+/*    margin-left:20%; */
+
+
+  
+/*
+    
+    ednote:padding is the space between the content area of the element and its border
+    ;margin is the space between the boder of the element and other elements
+    In other words,property width is the width of the content area;it is not the real(actual) width of the element
+
+    real width = width + (padding+border+margin)*2
+    
+    Example
+    #myid{width: 300px;margin: 10px;border: 5px solid black;padding: 20px;}
+    real width = 300+(20+5+10)*2 = 370px
+    
+    Note that padding as the same background as the content area;margin do not have a background it is transparent
+    
+    */
+
+    
+}
+
+
+
+
+
+nav.menubar ul li a:hover{    
+
+    
+     color:#000; 
+/*    color:#fff; */
+     background-color:#fff; 
+/*    background-color:#0cf; */
+    
+    /*background:#fff;  */ /* ed also work*/
+    
+    
+
+}
+
+
+
+
+
+
+
+
+/* ############################The following is menubar scroll ############################################ */
+
+
+
+
+
+ nav.menubarscroll{   
+    
+
+    
+
+    
+                  background-color:#ff6;  /* ednote:used to be */
+    
+        /*     background-color:#9ff; */ /* ednote:used to be header home color */
+        /*     background-color:#fcc; */ /* ednote:used to be header about color */
+        /*     background-color:#fc6; */ /* ednote:used to be header medicine color */
+        /*     background-color:#6f6; */ /* ednote:used to be header engineering color */
+        /*     background-color:#cf6; */ /* ednote:used to be header computer color */
+        /*     background-color:#fcf; */ /* ednote:used to be header food color */
+        /*     background-color:#ff6; */ /* ednote:used to be menubar color */
+    
+    
+    float:left;
+    width:100%; 
+    height:30%; /* need to set the value of height if you want to see vertical scrollbar after you set overflow:auto */
+    
+/*     font-size: 20px; */
+/*         font-size:120%; */
+    
+             font-size:100%;
+    
+/* 	font-weight: 700; */
+     	font-weight:bolder;
+    
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;   
+    
+/* overflow:scroll; */ /* ed work*/
+    overflow:auto; 
+    
+    /* display:inline;*/ /* donot work ,you must set at li */
+    
+
+    
+}
+
+
+
+
+nav.menubarscroll ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+
+nav.menubarscroll ul li{    
+    
+    /*   display:inline; */ /* ed work*/ /* we want vertical li so we do not set display:inline here */
+    
+
+
+         margin-left:5%; 
+    
+
+  
+}
+
+
+
+
+nav.menubarscroll ul li a:hover{    
+
+    
+    color:#000; 
+     background-color:#fff; 
+    
+    
+    /*background:#fff;  */ /* ed also work*/
+    
+    
+
+}
+
+
+/* -------------------------------- */
+
+
+
+nav.menubarscrollmedicine{    
+    
+    
+
+    
+             background-color:#fc6;  /* ednote:header medicine color */
+    
+
+    
+    float:left;
+    width:100%; 
+    height:30%; /* need to set the value of height if you want to see vertical scrollbar after you set overflow:auto*/
+    
+
+    
+        font-size:100%;
+    
+
+    
+     	font-weight:bolder;
+    
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;   
+    
+/* overflow:scroll; */ /* ed work*/
+    
+    overflow:auto; 
+    
+    /* display:inline;*/ /* donot work ,you must set at li */
+    
+
+    
+}
+
+
+
+    
+nav.menubarscrollmedicine ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+    
+nav.menubarscrollmedicine ul li{    
+    
+    /*   display:inline; */ /* ed work*/ /* we want vertical li so we do not set display:inline here */
+    
+
+    
+
+    /*  padding-left:10%; */  /* ed work*/
+
+    
+/*        padding-left:55px; */ /* also work */
+    
+
+         margin-left:5%; 
+/*     margin-left:10%; */    /* ed also work*/
+
+
+
+  
+}
+
+
+
+
+ nav.menubarscrollmedicine ul li a:hover{   
+
+    
+    color:#000;  
+/*    color:#fc6; */
+     background-color:#fff; 
+/*   background-color:#fc6; */  /* ednote:used to be header medicine color */
+    
+    /*background:#fff;  */ /* ed also work*/
+    
+    
+
+}
+
+/* ----------------------- */
+
+
+
+
+nav.menubarscrollengineering{    
+    
+
+    
+
+    
+        /*     background-color:#9ff; */ /* ednote:used to be header home color */
+        /*     background-color:#fcc; */ /* ednote:used to be header about color */
+        /*     background-color:#fc6; */ /* ednote:used to be header medicine color */
+             background-color:#6f6;  /* ednote:used to be header engineering color */
+        /*     background-color:#cf6; */ /* ednote:used to be header computer color */
+        /*     background-color:#fcf; */ /* ednote:used to be header food color */
+        /*     background-color:#ff6; */ /* ednote:used to be menubar color */    
+    
+    
+    float:left;
+    width:100%; 
+    height:30%; /* need to set the value of height if you want to see vertical scrollbar after you set overflow:auto */
+    
+/*     font-size: 20px; */
+    
+/*      font-size:120%; */
+        font-size:100%;
+    
+    
+/* 	font-weight: 700; */
+     	font-weight:bolder;
+    
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;   
+    
+/* overflow:scroll; */ /* ed work*/
+    overflow:auto; 
+    
+    /* display:inline;*/ /* donot work ,you must set at li */
+    
+
+    
+}
+
+
+
+
+nav.menubarscrollengineering ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+
+nav.menubarscrollengineering ul li{    
+    
+    /*   display:inline; */ /* ed work*/ /* we want vertical li so we do not set display:inline here */
+    
+    /*   background:#fff; */  /* ed work*/
+    
+
+    /*  padding-left:10%; */  /* ed work*/
+
+    
+/*        padding-left:55px; */ /* also work */
+    
+
+         margin-left:5%; 
+    
+/*     margin-left:10%; */    /* ed also work*/
+/*    margin-left:20%; */
+
+
+  
+}
+
+
+
+
+nav.menubarscrollengineering ul li a:hover{    
+
+    
+    color:#000; 
+     background-color:#fff; 
+    
+    
+    /*background:#fff;  */ /* ed also work*/
+    
+    
+
+}
+
+/* ------------------- */
+
+
+
+nav.menubarscrollcomputer{    
+    
+
+    
+
+    
+            /*     background-color:#9ff; */ /* ednote:used to be header home color */
+        /*     background-color:#fcc; */ /* ednote:used to be header about color */
+        /*     background-color:#fc6; */ /* ednote:used to be header medicine color */
+        /*     background-color:#6f6; */ /* ednote:used to be header engineering color */
+             background-color:#cf6;  /* ednote:used to be header computer color */
+        /*     background-color:#fcf; */ /* ednote:used to be header food color */
+        /*     background-color:#ff6; */ /* ednote:used to be menubar color */
+    
+    float:left;
+    width:100%; 
+    height:30%; /* need to set the value of height if you want to see vertical scrollbar after you set overflow:auto*/
+    
+/*     font-size: 20px; */
+    
+/*      font-size:120%; */
+        font-size:100%;
+    
+    
+/* 	font-weight: 700; */
+     	font-weight:bolder;
+    
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;   
+    
+/* overflow:scroll; */ /* ed work*/
+    overflow:auto; 
+    
+    /* display:inline;*/ /* donot work ,you must set at li */
+    
+
+    
+}
+
+
+
+
+nav.menubarscrollcomputer ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+
+nav.menubarscrollcomputer ul li{    
+    
+    /*   display:inline; */ /* ed work*/ /* we want vertical li so we do not set display:inline here */
+    
+    /*   background:#fff; */  /* ed work*/
+    
+
+    /*  padding-left:10%; */  /* ed work*/
+    /* padding-left:20%;  */
+    
+/*        padding-left:55px; */ /* also work */
+    
+
+         margin-left:5%; 
+/*     margin-left:10%; */    /* ed also work*/
+/*    margin-left:20%; */
+
+
+  
+}
+
+
+
+
+nav.menubarscrollcomputer ul li a:hover{    
+
+    
+    color:#000; 
+     background-color:#fff; 
+    
+    
+    /*background:#fff;  */ /* ed also work*/
+    
+    
+
+}
+
+/* ----------------------------------- */
+
+
+
+nav.menubarscrollfood{    
+    
+
+    
+
+    
+            /*     background-color:#9ff; */ /* ednote:used to be header home color */
+        /*     background-color:#fcc; */ /* ednote:used to be header about color */
+        /*     background-color:#fc6; */ /* ednote:used to be header medicine color */
+        /*     background-color:#6f6; */ /* ednote:used to be header engineering color */
+        /*     background-color:#cf6; */ /* ednote:used to be header computer color */
+             background-color:#fcf;  /* ednote:used to be header food color */
+        /*     background-color:#ff6; */ /* ednote:used to be menubar color */
+    
+    
+    float:left;
+    width:100%; 
+    height:30%; /* need to set the value of height if you want to see vertical scrollbar after you set overflow:auto*/
+    
+/*     font-size: 20px; */
+    
+/*      font-size:120%; */
+        font-size:100%;
+    
+    
+/* 	font-weight: 700; */
+     	font-weight:bolder;
+    
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;   
+    
+/* overflow:scroll; */ /* ed work*/
+    overflow:auto; 
+    
+    /* display:inline;*/ /* donot work ,you must set at li */
+    
+
+    
+}
+
+
+
+
+nav.menubarscrollfood ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+
+
+nav.menubarscrollfood ul li{    
+    
+    /*   display:inline; */ /* ed work*/ /* we want vertical li so we do not set display:inline here */
+    
+    /*   background:#fff; */  /* ed work*/
+    
+
+    /*  padding-left:10%; */  /* ed work*/
+    /* padding-left:20%;  */
+    
+/*        padding-left:55px; */ /* also work */
+    
+
+         margin-left:5%; 
+/*     margin-left:10%; */    /* ed also work*/
+/*    margin-left:20%; */
+
+
+  
+}
+
+
+
+
+nav.menubarscrollfood ul li a:hover{    
+
+    
+    color:#000; 
+     background-color:#fff; 
+    
+    
+    /*background:#fff;  */ /* ed also work*/
+    
+    
+
+}
+
+
+
+
+/* ############################The following is sidebar ############################################ */
+
+
+
+
+section.sidebar{     
+    
+
+    
+                 background-color:#9ff;  /* ednote:used to be header home color */
+            /* background-color:#fcc; */ /* ednote:used to be header about color */
+        /*     background-color:#fc6; */ /* ednote:used to be header medicine color */
+        /*     background-color:#6f6; */ /* ednote:used to be header engineering color */
+        /*     background-color:#cf6; */ /* ednote:used to be header computer color */
+        /*     background-color:#fcf; */ /* ednote:used to be header food color */
+        /*     background-color:#ff6; */ /* ednote:used to be menubar color */
+    
+    /* -------below for green---------- */
+    
+          /*  background-color:#cfc; */
+  /*  background-color:#cf9; */
+    
+    /*      background-color:#cf6; */ /* ednote:used to be */ 
+   /*       background-color:#cf3; */
+    /*      background-color:#cf0; */
+    
+    /*        background-color:#9f6; */
+/*                background-color:#9f3; */
+/*                 background-color:#9f0; */
+    
+/*                         background-color:#6f6; */  /* ednote:used to be */ 
+/*             background-color:#6f3; */
+/*         background-color:#6f0; */
+    
+   /*       background-color:#3f6; */
+  /*    background-color:#3f3; */
+  /*    background-color:#3f0; */
+
+    
+ /*     background-color:#0f6; */
+/*                        background-color:#0f3; */
+  /*    background-color:#0f0; */
+    
+    /* -----below for violet------------*/
+    
+/*     background-color:#f0f; */
+      /*   background-color:#f0c; */
+    /*     background-color:#f09; */
+    
+/*         background-color:#c9f; */ /* ednote:used to be */ 
+  /*       background-color:#c9c; */
+    
+    /*     background-color:#c6f; */  /* ednote:used to be */ 
+    /*     background-color:#c6c; */
+    
+      /*   background-color:#c3f; */
+    /*     background-color:#c3c; */
+    
+      /*   background-color:#c0f; */
+    /*     background-color:#c0c; */
+    /*     background-color:#c09; */
+    
+/*         background-color:#96f; */
+  /*       background-color:#96c; */
+    
+/*         background-color:#93f; */
+  /*       background-color:#93c; */
+    
+    /*     background-color:#90f; */
+    /*     background-color:#90c; */
+    /*     background-color:#909; */
+    
+    /*     background-color:#60f; */
+    /*     background-color:#60c; */
+    
+    /*     background-color:#30c; */
+    /*     background-color:#309; */
+    
+        /* ----below for yellow and orange-------------*/
+    
+      /*       background-color:#ff9; */
+      /*       background-color:#ff6; */ /* ednote:used to be */ 
+      /*       background-color:#ff3; */   
+    /* background-color:#ff0; */
+    
+     /*    background-color:#fc6; */ /* ednote:used to be */
+      /*   background-color:#fc3; */
+     /*    background-color:#fc0; */
+    
+      /*   background-color:#f96; */
+      /*   background-color:#f93; */
+      /*       background-color:#f90; */
+    
+       /*      background-color:#f63; */
+       /*      background-color:#f60; */
+    
+       /*      background-color:#f33; */
+       /*      background-color:#f30; */
+    
+    
+        /* --------below for pink and red---------*/
+    
+
+    /*   background-color:#fcf; */  /* ednote:used to be */
+        /*        background-color:#fcc; */ /* ednote:used to be */
+        /*            background-color:#fc9; */
+    
+         /*           background-color:#f9f; */
+           /*             background-color:#f9c; */
+           /*             background-color:#f99; */
+    
+              /*              background-color:#f6f; */
+              /*              background-color:#f6c; */
+              /*              background-color:#f69; */
+    
+              /*              background-color:#f3f; */
+                /*                  background-color:#f3c; */
+    
+   /*     background-color:#f0f; */
+   /*     background-color:#f0c; */
+   /*     background-color:#f09; */
+    
+  /*      background-color:#f06; */
+   /*     background-color:#f03; */
+   /*     background-color:#f00; */
+    
+    /* -----below for blue------------ */
+    
+       /*    background-color:#cff; */
+        /*       background-color:#cfc; */
+    
+       /* background-color:#9ff; */ /* ednote:used to be */
+       /*        background-color:#9fc; */
+       /*        background-color:#9f9; */
+    
+       /*        background-color:#6ff; */
+        /*       background-color:#6fc; */
+        /*       background-color:#6f9; */
+    
+         /*      background-color:#3ff; */
+          /*     background-color:#3fc; */
+          /*     background-color:#3f9; */
+    
+          /*     background-color:#3cf; */
+          /*     background-color:#3cc; */
+          /*     background-color:#3c9; */
+    
+          /*     background-color:#0ff; */
+           /*    background-color:#0fc; */
+           /*    background-color:#0f9; */
+    
+    /*
+               background-color:#09f;
+               background-color:#09c;
+    
+               background-color:#06f;
+               background-color:#06c;
+    
+               background-color:#03f;
+               background-color:#03c;
+    
+               background-color:#00f;
+               background-color:#00c;
+    */
+    
+        /* ----------------- */
+    
+    float:left;
+    width:20%; 
+/*        width:15%; */
+    height:100%;
+    
+    
+    
+/*        font-size: 20px; */
+/*            font-size:150%; */
+                font-size:120%;
+/* 	font-weight: 700; */
+/*     	font-weight:bold; */
+         	font-weight:bolder;
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+    
+      overflow:auto; /* show scrollbar in case the content is long */
+      
+}
+
+
+
+
+
+section.sidebar ul{    
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+
+
+section.sidebar ul li{      
+        
+          /* padding-left:10%; */  /* ed work */
+    
+        margin-left:5%;
+/*    margin-left:10%; */ /* ed also work*/
+    
+/*    padding-top:5%; */
+    margin-top:5%; /* ed also work*/
+}
+
+
+/* section.edsidebar1 ul li a:hover{ */
+/* section.simscisidebar ul li a:hover{  */  
+
+section.sidebar ul li a:hover{      
+    
+ color:#000;
+    background-color:#fff;
+}
+
+
+/* ############################The following is content ############################################ */
+
+
+
+
+
+
+
+    section.content{    
+    
+    /* color:#fff; */
+    color:#000;
+    /* background-color:#0f0; */
+        background-color:#fff;
+    float:right;
+    width:80%;
+     height:100%; 
+    
+    
+    /*
+        font-size: 20px;
+ 	font-weight: bold; 
+    */
+    
+/*    font-size:150%; */
+        font-size:120%;
+    
+
+    
+    /*	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif; */
+    
+     font-family: "source-code-pro", Consolas, monospace, sans-serif;
+    
+       overflow:auto; /* show scrollbar in case the content is long */
+    
+}
+
+
+
+section.content ul{     
+    
+  list-style-type:none;  /* do not show bullet in front of unorder list*/
+    
+}
+
+
+
+
+/* ############################The following is content full ############################################ */
+
+
+
+
+
+section.contentfull{    
+    
+/*    color:#fff; */
+        color:#000;
+    
+/*    background-color:#0f0; */
+        background-color:#fff;
+    
+    
+    float:left;
+    width:100%;
+     height:100%; 
+    
+    
+    /*
+        font-size: 20px;
+ 	font-weight: bold;
+    */
+    
+/*        font-size:150%; */
+            font-size:120%;
+    
+/*    font-family: "source-code-pro", Consolas, monospace; */
+    
+/*	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif; */
+    
+     font-family: "source-code-pro", Consolas, monospace, sans-serif;
+    
+       overflow:auto; /* show scrollbar in case the content is long */
+    
+}
+
+
+
+
+    
+section.contentfull ul{     
+    
+ list-style-type:none; /* do not show bullet in front of unorder list*/
+    
+}
+
+
+/* ############################The following is footer ############################################ */
+
+
+
+
+    footer.footer{     
+    
+/*    color:#fff; */
+        color:#000;
+    
+/*    background-color:#f0f; */
+    
+                    background-color:#ff6;   /* ednote:used to be menubar color */
+            /*         background-color:#9ff; */  /* ednote:used to be header home color */
+            /* background-color:#fcc; */ /* ednote:used to be header about color */
+        /*     background-color:#fc6; */ /* ednote:used to be header medicine color */
+        /*     background-color:#6f6; */ /* ednote:used to be header engineering color */
+        /*     background-color:#cf6; */ /* ednote:used to be header computer color */
+        /*     background-color:#fcf; */ /* ednote:used to be header food color */
+        /*     background-color:#ff6; */ /* ednote:used to be menubar color */
+    
+    
+    float:left;
+    width:100%;
+      
+    
+    
+/*     font-size: 20px; */
+         font-size:120%;
+/* 	font-weight: 700; */
+     	font-weight:bolder;
+    
+    
+    
+    
+	font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    
+}
+
+ p.plainparagraph{ 
+
+font-size:100%; /* useless (do not need) */
+
+}
+
+
+
+    p.indentplainparagraph{
+    text-indent:5%;
+    /* font-size:100%; */
+}
+
+
+/*  .plainparagraph h1{ */   /* do not work*/
+/*  #myidplainparagraph h1{ */    /* do not work*/
+  h1.plainparagraph{ 
+
+  font-size:200%;  
+    font-weight:bolder;
+}
+
+h2.plainparagraph{
+
+  font-size:170%;  
+        font-weight:bold;
+}
+
+h3.plainparagraph{
+
+  font-size:150%;  
+        font-weight:bold;
+}
+
+h4.plainparagraph{
+
+  font-size:120%;  
+        font-weight:bold;
+}
+
+ h3.boldparagraph{ 
+
+font-size:100%; /* useless */
+         font-weight:bold;
+}
+
+ p.boldparagraph{ 
+
+font-size:100%; /* useless */
+         font-weight:bold;
+}
+
+ p.italicparagraph{ 
+ 
+  
+    font-style:italic; 
+
+}
+
+
+p.indentitalicparagraph{    
+      text-indent:5%;
+    font-style:italic; 
+
+}
+
+
+
+p.indentobliqueparagraph{    
+   text-indent:5%;
+     font-style:oblique;
+}
+
+p.italictextbox{
+        font-style:italic; 
+   
+    background-color:#ccf;  /* ed work */
+/*     background-color:#f60; */ /* orange flame */   
+    /* border-color:red; */ /* ed do not work*/
+}
+
+
+p.indentitalictextbox{
+    
+      text-indent:5%;
+        font-style:italic; 
+   
+    background-color:#ccf;  /* ed work */
+/*     background-color:#f60; */ /* orange flame */   
+    /* border-color:red; */ /* ed donot work*/
+}
+
+
+img.imageX100{
+    width:100%;
+    height:100%;
+    margin-left:10%;
+}
+
+img.imageX95{
+    width:95%;
+    height:95%;
+    margin-left:10%;
+}
+
+img.imageX90{
+    width:90%;
+    height:90%;
+    margin-left:10%;
+}
+
+img.imageX85{
+    width:85%;
+    height:85%;
+    margin-left:10%;
+}
+
+img.imageX80{
+    width:80%;
+    height:80%;
+    margin-left:10%;
+}
+
+img.imageX75{
+    width:75%;
+    height:75%;
+    margin-left:10%;
+}
+
+img.imageX70{
+    width:70%;
+    height:70%;
+    margin-left:10%;
+}
+
+img.imageX65{
+    width:65%;
+    height:65%;
+    margin-left:10%;
+}
+
+img.imageX60{
+    width:60%;
+    height:60%;
+    margin-left:10%;
+}
+
+img.imageX55{
+    width:55%;
+    height:55%;
+    margin-left:10%;
+}
+
+img.imageX50{
+    width:50%;
+    height:50%;
+    margin-left:10%;
+}
+
+img.imageX45{
+    width:45%;
+    height:45%;
+    margin-left:10%;
+}
+
+img.imageX40{
+    width:40%;
+    height:40%;
+    margin-left:10%;
+}
+
+img.imageX35{
+    width:35%;
+    height:35%;
+    margin-left:10%;
+}
+
+img.imageX30{
+    width:30%;
+    height:30%;
+    margin-left:10%;
+}
+
+img.imageX25{
+    width:25%;
+    height:25%;
+    margin-left:10%;
+}
+
+img.imageX20{
+    width:20%;
+    height:20%;
+    margin-left:10%;
+}
+
+img.imageX15{
+    width:15%;
+    height:15%;
+    margin-left:10%;
+}
+
+img.imageX10{
+    width:10%;
+    height:10%;
+    margin-left:10%;
+}
+
+/* ############################The following is ############################################ */
+
+
+    
+          #view3Dn1{
+    
+				background: #000;   /*   Do not need because it is covered by renderer1.setClearColorHex(0xffffff, 1); in file.js  but it can help you check overlap when you forget to set the size of the window in fiel.js and the size of the window in file.css to have the same size */ 
+    
+
+    
+ 
+    
+    				width: 800px;
+				height: 600px;
+    
+    
+    /* border-color:#00f; */ /* do not work,do not show color of border */
+    /* border-right-color:green; */ /* do not work,do not show color of border */
+    
+    /* padding-left:20%; */ /* ednote: ed work but it show color black at the left side (padding area)*/
+    
+    margin-left:20%;  /* ednote: ed work and it does not show color black at the left side (margin area)*/
+   
+    
+    
+			}
+
+
+    
+            #view3Dn2{
+    
+    
+				background: #000;   /*   Do not need because it is covered by renderer1.setClearColorHex(0xffffff, 1); in file.js  but it can help you check overlap when you forget to set the size of the window in fiel.js and the size of the window in file.css to have the same size */ 
+    
+    
+
+    
+				width: 800px;
+				height: 600px;
+    
+    /* border-color:#00f; */ /* do not work,do not show color of border */
+    /* border-right-color:green; */ /* do not work,do not show color of border */
+    
+    /* padding-left:20%; */ /* ednote: ed work but it show color black at the left side (padding area)*/
+     margin-left:20%;  /* ednote: ed work and it does not show color black at the left side (margin area)*/
+
+    
+    
+			}
+
+        #view3Dn3{
+				background: #000;  /*   Do not need because it is covered by renderer1.setClearColorHex(0xffffff, 1); in file.js  but it can help you check overlap when you forget to set the size of the window in fiel.js and the size of the window in file.css to have the same size */ 
+    
+    
+				width: 800px;
+				height: 600px;
+    
+    
+    /* border-color:#00f; */ /* do not work,do not show color of border */
+    /* border-right-color:green; */ /* do not work,do not show color of border */
+    
+    /* padding-left:20%; */ /* ednote: ed work but it show color black at the left side (padding area)*/
+     margin-left:20%;  /* ednote: ed work and it does not show color black at the left side (margin area)*/
+    
+
+    
+    
+			}
+
+
+        #view3D400x300n4{
+				background: #000;  /*   Do not need because it is covered by renderer1.setClearColorHex(0xffffff, 1); in file.js  but it can help you check overlap when you forget to set the size of the window in fiel.js and the size of the window in file.css to have the same size */ 
+    
+    
+    
+    				width: 800px;
+				height: 600px;
+    
+    
+    /* border-color:#00f; */ /* do not work,do not show color of border */
+    /* border-right-color:green; */ /* do not work,do not show color of border */
+    
+    
+    /* padding-left:20%; */ /* ednote: ed work but it show color black at the left side (padding area)*/
+     margin-left:20%;  /* ednote: ed work and it does not show color black at the left side (margin area)*/
+  
+    
+    
+			}
+
+
+
+
+
